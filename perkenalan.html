@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halaman Perkenalan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: silver;
+            text-align: center;
+        }
+        .menu-bar {
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: white;
+            display: flex;
+            gap: 20px;
+            padding: 15px 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 0 0 10px 10px;
+            z-index: 1000;
+        }
+        .menu-bar a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .menu-bar a:hover {
+            color: #007bff;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            margin-top: 100px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .video-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+ <nav class="menu-bar">
+        <a href="perkenalan.html">Perkenalan</a>
+        <a href="galeri.html">Galeri</a>
+        <a href="kampus.html">Kampus</a>
+        <a href="formulir.html">Formulir</a>
+    </nav>
+
+    <div class="container">
+        <h1> Bio Data</h1>
+        <img src="killua.jpg" alt="Foto Profil" class="profile-img">
+        <p><strong>Nama:</strong> Muhammad Dzaky</p>
+        <p><strong>Tempat, Tanggal Lahir:</strong> Jereweh, 7 Oktober 2002</p>
+        <p><strong>Alamat:</strong> Kabupaten Sumbawa Barat</p>
+        <p><strong>Umur:</strong> 22 tahun</p>
+
+        <div class="video-container">
+            <h2>Selamat menonton</h2>
+            <iframe width="560" height="315" src="zoldyck.mp4" frameborder="0" allowfullscreen></iframe>
+            <p><a href="https://youtu.be/4n7V__ZqA30" target="_blank">Tonton di YouTube</a></p>
+        </div>
+    </div>
+</body>
+</html>

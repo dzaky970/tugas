@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Perkenalan Kampus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: silver;
+            margin: 0;
+            padding: 0;
+        }
+        .menu-bar {
+            position: fixed;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: white;
+            display: flex;
+            gap: 20px;
+            padding: 15px 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            border-radius: 0 0 10px 10px;
+            z-index: 1000;
+        }
+        .menu-bar a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .menu-bar a:hover {
+            color: #007bff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 100px auto 50px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f8f8f8;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="menu-bar">
+        <a href="perkenalan.html">Perkenalan</a>
+        <a href="galeri.html">Galeri</a>
+        <a href="kampus.html">Kampus</a>
+        <a href="formulir.html">Formulir</a>
+    </nav>
+
+    <div class="container">
+        <h1>Selamat Datang di Universitas Hamzanwadi</h1>
+        <p>Kampus kami adalah pusat pendidikan unggulan yang menawarkan berbagai program studi untuk mendukung perkembangan akademik dan profesional mahasiswa.</p>
+        <h2>Daftar Mata Kuliah</h2>
+        <table>
+            <tr>
+                <th>Nama Mata Kuliah</th>
+                <th>SKS</th>
+            </tr>
+            <tr><td>Pemrograman Web</td><td>4</td></tr>
+            <tr><td>Jaringan Dasar</td><td>4</td></tr>
+            <tr><td>Aplikasi Komputer</td><td>2</td></tr>
+            <tr><td>Sistem Informasi</td><td>2</td></tr>
+            <tr><td>Pengembangan Aplikasi Mobile</td><td>3</td></tr>
+        </table>
+    </div>
+
+</body>
+</html>
